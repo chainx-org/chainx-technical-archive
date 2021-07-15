@@ -1,4 +1,4 @@
-# Privacy protection based on Schnorr and MAST
+# Privacy protection based on Taproot
 
 ## Contenent
 
