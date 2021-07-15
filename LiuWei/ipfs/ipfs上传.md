@@ -30,8 +30,6 @@ axios
   });
 ```
 
-（图片）
-
 ## 上传文件
 
 - 上传语法（并获取 metadata）
@@ -95,6 +93,38 @@ hash 值：hash
 # puppeteer
 
 **生成页面的屏幕截图和 PDF。**
+
+```javascript
+const puppeteer = require("puppeteer");
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.resourceType() === "image") request.abort();
+    else request.continue();
+  });
+  await page.goto("<URL>");
+  await page.screenshot({ path: "<FILE_NAME>.png", fullPage: true });
+  await page.pdf({
+    path: "<FILE_NAME>.pdf",
+  });
+  await browser.close();
+})();
+```
+
+## Upload buffer file
+
+-Upload syntax (and get hash directly)
+const hash = await client.storeBlob(<BLOB || BUFFER>)
+
+-Access method (Front-end applicable 🌟🌟🌟🌟🌟)
+https://<HASH>.ipfs.dweb.link/
+
+# puppeteer
+
+** Generate screenshots and PDFs of pages. **
 
 ```javascript
 const puppeteer = require("puppeteer");
