@@ -137,7 +137,7 @@ Signature: 9c5530a2e78faa9a87d12ea48f201cec4462e21237ee6e682c935a28a44b826d2265a
 
 ![musig2](https://cdn.jsdelivr.net/gh/rjman-ljm/resources@master/assets/1626864178031-1626864178028.png)
 
-![musig3](/home/rjman/.config/Typora/typora-user-images/image-20210721184333777.png)
+![musig3](https://cdn.jsdelivr.net/gh/rjman-ljm/resources@master/assets/1626920629707-image-20210721184333777.png)
 
 结果如下：
 

@@ -2,18 +2,18 @@
 
 ## Content
 
-1. [Schnorr Signature](#Schnorr Signature)
-	+ [encryption methods in Elliptic Curves](#encryption methods in Elliptic Curves)
-	+ [implementation principle of Schnorr signature](#implementation principle of Schnorr signature)
-	+ [sign the message](#sign the message)
-	+ [verify the signature](#verify the signature)
-	+ [why nonces are necessary](#why nonces are necessary)
-2. [Implementation of Musig with Schnorr signature](#Implementation of Musig with Schnorr signature)
-	+ [aggregate pubkeys](#aggregate pubkeys)
-	+ [key cancellation attack](#key cancellation attack)
-	+ [aggregate nonces](#aggregate nonces)
-	+ [aggregate signatures](#aggregate signatures)
-	+ [the complete process of Musig three-round communication](#the complete process of Musig three-round communication)
+1. [Schnorr Signature](#Schnorr%20Signature)
+	+ [encryption methods in Elliptic Curves](#encryption%20methods%20in%20Elliptic%20Curves)
+	+ [implementation principle of Schnorr signature](#implementation%20principle%20of%20Schnorr%20signature)
+	+ [sign the message](#sign%20the%20message)
+	+ [verify the signature](#verify%20the%20signature)
+	+ [why nonces are necessary](#why%20nonces%20are%20necessary)
+2. [Implementation of Musig with Schnorr signature](#Implementation%20of%20Musig%20with%20Schnorr%20signature)
+	+ [aggregate pubkeys](#aggregate%20pubkeys)
+	+ [key cancellation attack](#key%20cancellation%20attack)
+	+ [aggregate nonces](#aggregate%20nonces)
+	+ [aggregate signatures](#aggregate%20signatures)
+	+ [the complete process of Musig three-round communication](#the%20complete%20process%20of%20Musig%20three-round%20communication)
 
 ## Schnorr Signature
 
@@ -134,7 +134,7 @@ Signature: 9c5530a2e78faa9a87d12ea48f201cec4462e21237ee6e682c935a28a44b826d2265a
 
 ![musig-1](https://cdn.jsdelivr.net/gh/rjman-ljm/resources@master/assets/1626863264267-1626863264264.png)
 
-![musig-2](/home/rjman/.config/Typora/typora-user-images/image-20210721182830058.png)
+![musig-2](https://cdn.jsdelivr.net/gh/rjman-ljm/resources@master/assets/1626921006922-image-20210721182830058.png)
 
 ![musig-3](https://cdn.jsdelivr.net/gh/rjman-ljm/resources@master/assets/1626863344878-1626863344875.png)
 
