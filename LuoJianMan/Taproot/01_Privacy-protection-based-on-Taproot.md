@@ -2,13 +2,13 @@
 
 ## Contenent
 
-1. [Overview of Taproot](#Overview of Taproot)
-2. [The current privacy issues of the Bitcoin network](#The current privacy issues of the Bitcoin network)
-3. [Schnorr aggregated signatures protect multiple parties](#Schnorr aggregated signatures protect multiple parties)
-	+ [As a signature algorithm for the Bitcoin network](#As a signature algorithm for the Bitcoin network)
-	+ [Support aggregation signature to achieve privacy protection](#Support aggregation signature to achieve privacy protection)
-4. [MAST provides more privacy for complex transactions](#MAST provides privacy protection for trading scripts)
-5. [Users' privacy under Taproot upgrade](#Users' privacy under Taproot upgrade)
+1. [Overview of Taproot](#Overview%20of%20Taproot)
+2. [The current privacy issues of the Bitcoin network](#The%20current%20privacy%20issues%20of%20the%20Bitcoin%20network)
+3. [Schnorr aggregated signatures protect multiple parties](#Schnorr%20aggregated%20signatures protect%20multiple%20parties)
+	+ [As a signature algorithm for the Bitcoin network](#As%20a%20signature%20algorithm%20for%20the%20Bitcoin%20network)
+	+ [Support aggregation signature to achieve privacy protection](#Support%20aggregation%20signature%20to%20achieve%20privacy%20protection)
+4. [MAST provides more privacy for complex transactions](#MAST%20provides%20privacy%20protection%20for%20trading%20scripts)
+5. [Users' privacy under Taproot upgrade](#Users'%20privacy%20under%20Taproot%20upgrade)
 
 ## Overview of Taproot
 

@@ -1,4 +1,4 @@
-# 一文读懂Schnorr签名和Musig聚合签名原理
+# 理解Schnorr签名和Musig聚合签名原理
 
 ## 大纲
 
