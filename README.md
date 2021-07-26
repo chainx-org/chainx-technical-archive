@@ -6,7 +6,8 @@
 2. [Decentralized red envelope](#Decentralized%20red%20envelope)
 3. [BTC Cross-Chain](#BTC%20Cross-Chain)
 4. [NFT](#NFT)
-5. [Others](#Others)
+5. [EVM](#EVM)
+6. [Others](#Others)
 
 ### Taproot
 
@@ -40,8 +41,14 @@
 | index |                           English                            |                           Chinese                            |
 | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  00   | [Decentralized Identity Implementation of C-Card](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Decentralized%20Identity%20Implementation%20of%20C-Card.pdf) | [C-Card 的去中心化身份实现](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/C-Card%20%E7%9A%84%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E8%BA%AB%E4%BB%BD%E5%AE%9E%E7%8E%B0.pdf) |
-|  01   | [Comparison of Acala, Moonbeam and Plasm](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Comparison%20of%20Acala%2C%20Moonbeam%20and%20Plasm.pdf) |                              -                               |
+|  01   | [Comparison of Acala, Moonbeam and Plasm](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Comparison%20of%20Acala%2C%20Moonbeam%20and%20Plasm.pdf) |  -                               |
 
+### EVM
+
+| index |                           English                            |                           Chinese                            |
+| :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 00    | [pallet-evm: An implementation of EVM in Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/WangYaFei/evm/pallet-evm:An%20implementation%20of%20evm%20in%20substrate.md)|  |
+| 01    | [Implementation of EVM on Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Implementation%20of%20EVM%20on%20Substrate.md)| |
 ### Others
 
 | index | English | Chinese |
