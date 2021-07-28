@@ -19,10 +19,9 @@
 |  03   | [Support for Bitcoin's latest trading script P2TR](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/02_Support%20for%20Bitcoin's%20latest%20trading%20script%20P2TR.md) | [支持比特币最新交易脚本P2TR](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/02_%E6%94%AF%E6%8C%81%E6%AF%94%E7%89%B9%E5%B8%81%E6%9C%80%E6%96%B0%E4%BA%A4%E6%98%93%E8%84%9A%E6%9C%ACP2TR.md) |
 |  04   | [Privacy protection based on Taproot](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/01_Privacy-protection-based-on-Taproot.md) | [基于Taproot的隐私保护](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/01_%E5%9F%BA%E4%BA%8ETaproot%E7%9A%84%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4.md) |
 |  05   | [understand Schnorr and Musig](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/02_Understand-Schnorr-and-Musig.md) | [理解Schnorr签名和Musig聚合签名原理](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/02_%E7%90%86%E8%A7%A3Schnorr%E7%AD%BE%E5%90%8D%E5%92%8CMusig%E8%81%9A%E5%90%88%E7%AD%BE%E5%90%8D%E5%8E%9F%E7%90%86.md) |
+|  06   | [What is the role of ChainX on the Layer2 stage?](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/What-is-the-role-of-ChainX-on-the-Layer2-stage.md) | [ChainX 在Layer2舞台中的角色](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/02_ChainX%20%E5%9C%A8Layer2%E8%88%9E%E5%8F%B0%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2.md) |
 
 ### Decentralized red envelope
-
-
 
 | index |                           English                            |                           Chinese                            |
 | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -49,6 +48,7 @@
 | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 00    | [pallet-evm: An implementation of EVM in Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/WangYaFei/evm/pallet-evm:An%20implementation%20of%20evm%20in%20substrate.md)|  |
 | 01    | [Implementation of EVM on Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Implementation%20of%20EVM%20on%20Substrate.md)| |
+
 ### Others
 
 | index | English | Chinese |
