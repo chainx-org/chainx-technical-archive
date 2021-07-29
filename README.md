@@ -22,6 +22,7 @@
 |  06   | [What is the role of ChainX on the Layer2 stage?](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/What-is-the-role-of-ChainX-on-the-Layer2-stage.md) | [ChainX 在Layer2舞台中的角色](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/02_ChainX%20%E5%9C%A8Layer2%E8%88%9E%E5%8F%B0%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2.md) |
 |  07   | [Upgrade from SegWit V0 to SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_Upgrade-from-SegWitV0-to-SegWitV1.md) | [从SegWit V0过渡到SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_%E4%BB%8ESegWitV0%E8%BF%87%E6%B8%A1%E5%88%B0SegWitV1.md) |
 |  08   | [Tapscript transaction structure](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/03_Tapscript%20transaction%20structure.md) | [Tapscript交易结构](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/03_Tapscript%E4%BA%A4%E6%98%93%E7%BB%93%E6%9E%84.md) |
+|  09   | [Script Path Spending](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_Script-Path-Spending.md) | [脚本路径支出](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_%E8%84%9A%E6%9C%AC%E8%B7%AF%E5%BE%84%E6%94%AF%E5%87%BA.md) |
 
 
 ### Decentralized red envelope
