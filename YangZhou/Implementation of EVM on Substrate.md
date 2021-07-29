@@ -20,9 +20,11 @@ Main parts of EVM：
 EVM code is Ethereum Virtual Machine code, which refers to the code of programming language that EVM can contain. The EVM code associated with the account is executed every time a message is sent to the account, and has the ability to read / write storage and send messages by itself.
 
 **Storage**
+
 Storage is a persistent storage space that can be read, written and modified. It is also a place where each contract can persistently stores data. Storage is a huge map with 2 ^ 256 slots and 32bytes in one slot.
 
 **Mchine State**
+
 Mchine State is where evm code is executed, contains program counter, stack, memory.
 
 # Implementation of EVM on Substrate
