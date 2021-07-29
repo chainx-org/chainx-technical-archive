@@ -20,6 +20,8 @@
 |  04   | [Privacy protection based on Taproot](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/01_Privacy-protection-based-on-Taproot.md) | [基于Taproot的隐私保护](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/01_%E5%9F%BA%E4%BA%8ETaproot%E7%9A%84%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4.md) |
 |  05   | [understand Schnorr and Musig](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/02_Understand-Schnorr-and-Musig.md) | [理解Schnorr签名和Musig聚合签名原理](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/02_%E7%90%86%E8%A7%A3Schnorr%E7%AD%BE%E5%90%8D%E5%92%8CMusig%E8%81%9A%E5%90%88%E7%AD%BE%E5%90%8D%E5%8E%9F%E7%90%86.md) |
 |  06   | [What is the role of ChainX on the Layer2 stage?](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/What-is-the-role-of-ChainX-on-the-Layer2-stage.md) | [ChainX 在Layer2舞台中的角色](https://github.com/chainx-org/chainx-technical-archive/blob/main/Team-Taproot/02_ChainX%20%E5%9C%A8Layer2%E8%88%9E%E5%8F%B0%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2.md) |
+|  07   | [Upgrade from SegWit V0 to SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_Upgrade-from-SegWitV0-to-SegWitV1.md) | [从SegWit V0过渡到SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_%E4%BB%8ESegWitV0%E8%BF%87%E6%B8%A1%E5%88%B0SegWitV1.md) |
+
 
 ### Decentralized red envelope
 
