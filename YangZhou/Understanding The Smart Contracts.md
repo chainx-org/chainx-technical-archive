@@ -10,7 +10,7 @@ Smart contract is a computer program that can be automatically executed when cer
 
 The following diagram is a smart contract model: a piece of smart contract code is deployed on the distributed ledger, which can respond to the received external information.
 
-![img](smart_contarct_model.png)
+![img](https://github.com/helloyzp/BlockChainArticles/blob/master/images/smart_contarct_model.png)
 
 
 
@@ -18,7 +18,7 @@ The existence of smart contract makes it no longer necessary for intermediaries 
 
 For better understanding, for example: suppose John wants to buy Bob's house, the agreement will be reached on the blockchain using a smart contract, which contains the agreement between John and Bob. In short, the contract is as follows: "Bob will acquire ownership of the house when Bob pays John 150 eth".
 
-![smart_contract](smart_contract.png)
+![smart_contract](https://github.com/helloyzp/BlockChainArticles/blob/master/images/smart_contract.png)
 
 In this case, if the smart contract is not used, Bob and John will have to pay a lot of fees to the third-party institutions, including banks, lawyers and housing brokers. However,  use the smart contracts, the transaction can be completed at almost little cost.
 
@@ -26,7 +26,7 @@ Here is a brief understanding of how smart contracts are created, compiled, depl
 
 ## Contract Compilation
 
-![img](smart_contract_1.webp)
+![img](https://github.com/helloyzp/BlockChainArticles/blob/master/images/smart_contract_1.webp)
 
 As shown in the figure above, the contract file Helloworld.sol is compiled by the compiler to generate Helloworld.abi and Helloworld.bin files.
 
@@ -38,7 +38,7 @@ The abi file is the interface description file of the contract. The description 
 
 
 
-![img](smart_contract_2.webp)
+![img](https://github.com/helloyzp/BlockChainArticles/blob/master/images/smart_contract_2.webp)
 
 
 
@@ -54,7 +54,7 @@ Finally, the contract code corresponding to the contract address will be saved i
 
 
 
-![img](smart_contract_3.webp)
+![img](https://github.com/helloyzp/BlockChainArticles/blob/master/images/smart_contract_3.webp)
 
 
 
