@@ -43,6 +43,7 @@ frontier项目虽然启动较早, 但目前仍处于POC阶段.
 ## 4. minix移植evm目标与难点
 目标:
 - 通过移植frontier的evm方案, 运行普通的ethereum dapp.
+
 难点:
-(1) evm合约执行的调试
-(2) 手续费的收取(minix 8位decimal与 eth 18位decimal的转换)
+- (1) evm合约执行的调试
+- (2) 手续费的收取(minix 8位decimal与 eth 18位decimal的转换)
