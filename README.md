@@ -25,6 +25,9 @@
 |  09   | [Script Path Spending](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_Script-Path-Spending.md) | [脚本路径支出](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_%E8%84%9A%E6%9C%AC%E8%B7%AF%E5%BE%84%E6%94%AF%E5%87%BA.md) |
 |  10   | [Musig2: Why Libp2p](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/04_Musig2:%20Why%20Libp2p.md) | [Libp2p实现Musig2的通信交互](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/04_Libp2p%E5%AE%9E%E7%8E%B0Musig2%E7%9A%84%E9%80%9A%E4%BF%A1%E4%BA%A4%E4%BA%92.md) |
 |  11   | [Scriptless Scripts With Schnorr](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/04_Scriptless%20Scripts%20With%20Schnorr.md) | [使用Schnorr签名的链下合约方法Sciptless Scripts](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/04_%E4%BD%BF%E7%94%A8Schnorr%E7%9A%84%E9%93%BE%E4%B8%8B%E5%90%88%E7%BA%A6%E6%96%B9%E6%B3%95Sciptless%20Scripts.md) |
+|  12   | [Basic principles of Musig2](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/04_Basic%20principles%20of%20Musig2.md) | [Musig2基本原理](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/04_Musig2%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86.md) |
+
+
 
 ### Decentralized red envelope
 
