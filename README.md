@@ -23,7 +23,7 @@
 |  07   | [Upgrade from SegWit V0 to SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_Upgrade-from-SegWitV0-to-SegWitV1.md) | [从SegWit V0过渡到SegWit V1](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/03_%E4%BB%8ESegWitV0%E8%BF%87%E6%B8%A1%E5%88%B0SegWitV1.md) |
 |  08   | [Tapscript transaction structure](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/03_Tapscript%20transaction%20structure.md) | [Tapscript交易结构](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/03_Tapscript%E4%BA%A4%E6%98%93%E7%BB%93%E6%9E%84.md) |
 |  09   | [Script Path Spending](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_Script-Path-Spending.md) | [脚本路径支出](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/03_%E8%84%9A%E6%9C%AC%E8%B7%AF%E5%BE%84%E6%94%AF%E5%87%BA.md) |
-
+|  10   | [Musig2: Why Libp2p](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/04_Musig2:%20Why%20Libp2p.md) | [Libp2p实现Musig2的通信交互](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/04_Libp2p%E5%AE%9E%E7%8E%B0Musig2%E7%9A%84%E9%80%9A%E4%BF%A1%E4%BA%A4%E4%BA%92.md) |
 
 ### Decentralized red envelope
 
