@@ -14,7 +14,8 @@ DApp can run on a centralized server that can interact with blockchain nodes, or
 
 DApp corresponds to App (centralized application). The difference between the two is that the data interaction of DApp is completed by the smart contract deployed on the blockchain, which has the attribute of decentralization, that is, DApp = front end + smart contract; The data interaction of App is completed by centralized or distributed servers.
 
-Centralization and Decentralization:![image-20210805154812112](image-20210805154812112.png) 
+Centralization and Decentralization:
+![image-20210805154812112](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805154812112.png) 
 
  
 
@@ -24,7 +25,7 @@ Centralization and Decentralization:![image-20210805154812112](image-20210805154
 
 According to the data of Dapp.review, as of August 4, 2021, 6370 dapps have been included, of which about 358 are daily active, and 15946 smart contracts have been deployed in total; The daily active users are about 110249, and the daily transaction volume is about 107 million US dollars.
 
-![image-20210805184435350](image-20210805184435350.png) 
+![image-20210805184435350](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805184435350.png) 
 
  
 
@@ -32,7 +33,7 @@ According to the data of Dapp.review, as of August 4, 2021, 6370 dapps have been
 
 Active users:
 
-![image-20210805184529517](image-20210805184529517.png)
+![image-20210805184529517](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805184529517.png)
 
 
 
@@ -40,13 +41,13 @@ The active users of Ethereum are around 5W, which is much higher than other chai
 
 Active DApp:
 
-![image-20210805184637005](image-20210805184637005.png)
+![image-20210805184637005](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805184637005.png)
 
 The number of active DApps on Ethereum is 147, and the number of active DApps on TRON is 123, which is not much different from Ethereum.
 
 Trade volume:
 
-![image-20210805184828108](image-20210805184828108.png)
+![image-20210805184828108](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805184828108.png)
 
 The daily trading volume of Ethereum is about 213 million US dollars, and the TRON is about 108 million US dollars.
 
@@ -54,7 +55,7 @@ It can be seen that Ethereum is still the most popular DApp development platform
 
 Category of DApp:
 
-![image-20210805184914336](image-20210805184914336.png)
+![image-20210805184914336](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805184914336.png)
 
 From the category of DAapp, transaction, finance and game are the three most popular types of DAapp, and the transaction volume is also the largest.
 
