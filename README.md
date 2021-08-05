@@ -56,11 +56,12 @@
 | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 00    | [pallet-evm: An implementation of EVM in Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/WangYaFei/evm/pallet-evm:An%20implementation%20of%20evm%20in%20substrate.md)|  |
 | 01    | [Implementation of EVM on Substrate](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Implementation%20of%20EVM%20on%20Substrate.md)| |
-| 02    | [The research of frontier](./ZhaoJianBing/the_research_of_frontier.md) | [调研frontier](./ZhaoJianBing/zh/the_research_of_frontier_zh.md) |
+| 02    | [The research of frontier](./ZhaoJianBing/the_research_of_frontier.md) | [调研frontier](./ZhaoJianBing/the_research_of_frontier_zh.md) |
+| 03    | [How does frontier manage the substrate account and ethereum account](./ZhaoJianBing/substrate_account_and_ethereum_account.md) | [frontier是如何管理substrate账户和ethereum账户的](./ZhaoJianBing/substrate_account_and_ethereum_account_zh.md) |
 
 ### Others
 
 | index | English | Chinese |
 | :---: | :-----: | :-----: |
-|  00   | [The migration of storage](./ZhaoJianBing/storage_migration.md) | [存储迁移](./ZhaoJianBing/zh/storage_migration_zh.md)  |
-|  01   | [The talent_contract_nft](./ZhaoJianBing/talent_contract_nft.md) | [一种链上人才合同NFT的设计](./ZhaoJianBing/zh/talent_contract_nft_zh.md) |
+|  00   | [The migration of storage](./ZhaoJianBing/storage_migration.md) | [存储迁移](./ZhaoJianBing/storage_migration_zh.md)  |
+|  01   | [The talent_contract_nft](./ZhaoJianBing/talent_contract_nft.md) | [一种链上人才合同NFT的设计](./ZhaoJianBing/talent_contract_nft_zh.md) |
