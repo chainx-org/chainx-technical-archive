@@ -16,7 +16,7 @@ DApp与APP（中心化应用：Centralized Application）相对应。二者的�
 
  *中心化与非中心化：*
 
-![image-20210805154812112](image-20210805154812112.png) 
+![image-20210805154812112](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805154812112.png) 
 
  
 
@@ -26,7 +26,7 @@ DApp与APP（中心化应用：Centralized Application）相对应。二者的�
 
 根据Dapp.review的数据，截止2021年8月4日，总共收录DApp 6370个，其中日活跃的DApp大约有358个，总共部署了15946个智能合约; 日活跃用户11万左右，日交易额大约在1.07亿美元。
 
-![image-20210805163112952](image-20210805163112952.png) 
+![image-20210805163112952](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805163112952.png) 
 
  
 
@@ -34,19 +34,19 @@ DApp与APP（中心化应用：Centralized Application）相对应。二者的�
 
 活跃用户：
 
- ![image-20210805165429742](image-20210805165429742.png)
+ ![image-20210805165429742](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805165429742.png)
 
 以太坊的活跃用户在5w左右，比其他公链都高出很多。
 
  活跃DAPP：
 
-![image-20210805165459265](image-20210805165459265.png) 
+![image-20210805165459265](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805165459265.png) 
 
 以太坊的上的活跃DAPP数量是147个，波场上的活跃DAPP数量是123个，和以太坊相差的不是很多。
 
 交易额：
 
- ![image-20210805165643533](image-20210805165643533.png)
+ ![image-20210805165643533](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805165643533.png)
 
 以太坊的日交易额大约2.13亿美元，波场大约是1.08亿美元。
 
@@ -54,7 +54,7 @@ DApp与APP（中心化应用：Centralized Application）相对应。二者的�
 
 DAapp的分类：
 
-![image-20210805180753158](image-20210805180753158.png)
+![image-20210805180753158](https://github.com/helloyzp/BlockChainArticles/blob/master/images/image-20210805180753158.png)
 
 从DAapp的分类来看，交易、金融和游戏是最受欢迎的三类DApp，同时交易额也是最大的。
 
