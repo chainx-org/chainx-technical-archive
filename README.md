@@ -27,6 +27,7 @@
 |  11   | [Scriptless Scripts With Schnorr](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/04_Scriptless%20Scripts%20With%20Schnorr.md) | [使用Schnorr签名的链下合约方法Sciptless Scripts](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/04_%E4%BD%BF%E7%94%A8Schnorr%E7%9A%84%E9%93%BE%E4%B8%8B%E5%90%88%E7%BA%A6%E6%96%B9%E6%B3%95Sciptless%20Scripts.md) |
 |  12   | [Basic principles of Musig2](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/04_Basic%20principles%20of%20Musig2.md) | [Musig2基本原理](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/04_Musig2%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86.md) |
 |  13   | [Sighash and Taproot](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/05_Sighash%20and%20Taproot.md) | [Sighash和Taproot](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/05_Sighash%E5%92%8CTaproot.md) |
+|  14   | [Introduce Bech32 And Bech32m](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/05_Introduce%20Bech32%20And%20Bech32m.md) | [Bech32 和 Bech32m](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/05_Bech32%E5%92%8CBech32m.md) |
 
 
 
