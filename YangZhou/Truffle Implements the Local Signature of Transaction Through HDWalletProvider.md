@@ -1,26 +1,21 @@
-# Truffle通过HDWalletProvider实现交易的本地签名
+# Truffle Implements the Local Signature of Transaction Through HDWalletProvider
 
-## Truffle简介
 
-Truffle是一个以太坊智能合约集成开发环境，旨在简化开发人员的工作，提升开发效率。
 
-Truffle拥有以下特性：
+Truffle is an Ethereum smart contract integrated development environment, which aims to simplify the work of developers and improve development efficiency.
 
-内置智能合约编译、链接、部署和二进制管理。
+Truffle has the following features:
 
-用于快速开发的自动化合约测试。
+- Built-in smart contract compilation, linking, deployment and binary management.
+- Automated contract testing for rapid development.
+- Scriptable, extensible deployment & migrations framework.
+- Network management for deploying to any number of public & private networks, such as local Ganache development network, Ethereum test network and Ethereum main network.
+- Interactive console for direct contract communication.
+- and so on
 
-可编写脚本、可扩展的部署和迁移框架。
+## Truffle Deployment Contract Process
 
-用于部署到任意数量的公用和专用网络的网络管理，例如本地的Ganache开发网络、以太坊测试网络、以太坊主网。
-
-用于直接和合约通信的交互式控制台。
-
-等等
-
-## Truffle部署合约的流程
-
-分析Truffle源码：
+Analyze Truffle source code:
 
 ```
 //truffle/packages/contract/lib/execute.js
@@ -88,15 +83,17 @@ deploy: function (constructorABI) {
   }
 ```
 
-可知当执行truffle deploy时，整体的调用逻辑链是：
+It can be seen that when `truffle deploy` is executed, the overall calling logic chain is:
 
 deploy() ->  new web3.eth.Contract(constructor.abi)  -> this.sendTransaction() ->  web3.eth.sendTransaction(params) 
 
 -> method.requestManager.send(payload, sendTxCallback) -> Provider.send
 
+
+
 ## HttpProvider
 
-先来看web3.js默认使用的HttpProvider：
+Let's first look at the HttpProvider used by web3.js default:
 
 ```
 //web3.js/packages/web3-core-method/src/index.js
@@ -179,7 +176,7 @@ HttpProvider.prototype.send = function (payload, callback) {
 }
 ```
 
-> RequestManager是对Provider的封装:
+> Requestmanager is the encapsulation of provider:
 
 ```
 //web3.js/packages/web3-core-requestmanager/src/index.js
@@ -191,27 +188,27 @@ RequestManager.providers = {
 };
 ```
 
-根据上面的代码逻辑可以知道，web3.js对于eth_sendTransaction方法的的处理逻辑：
+According to the above code logic, processing logic of  eth_sendTransaction method for web3.js:
 
-(1)如果可以找到钱包，则使用from参数对应的私钥进行签名，然后调用eth_sendRawTransaction这个RPC接口。
+(1) If  the wallet is found, use the private key corresponding to the from parameter to sign it, then call eth_sendRawTransaction this RPC interface.
 
-(2)如果没找到钱包，则不做任何处理，直接发送RPC接口。
+(2) If the wallet is not found, it will be sent directly to the RPC interface without any processing.
+
+
 
 ## HDWalletProvider
 
-HDWalletProvider是Truffle提供的一个组件，web3.js本身是没有的。HDWalletProvider是基于HD Wallet(可以参看BIP32)的Web3 Provider，Wallet即存储私钥，所以不难想象它就是用来对合约交易进行签名的。那么Truffle是如何做的，需要先理解几个概念:
+HDWalletProvider is a component provided by Truffle, Web3.js itself does not has. HDWalletProvider is a Web3 provider based on HD wallet (see bip32). Wallet stores the private key, so it is not hard to know that it is used to sign contract transactions. So how truffle does? it needs to understand several concepts first:
 
 - Web3 provider engine
 
 - HookedSubprovider
 
-  
-
 ### Web3 provider engine
 
-要理解Web3 provider engine，要先理解web3和provider，web3是一组和以太坊节点交互的RPC API。provider是就是执行RPC接口请求的程序，比如HttpProvider、WebsocketProvider、IpcProvider，这些provider都是Web3.js提供的。
+To understand Web3 provider engine, you must first understand Web3 and provider. Web3 is a set of RPC APIs that interact with Ethereum nodes. Providers are programs that execute RPC interface requests, such as HttpProvider, WebsocketProvider and IpcProvider. These providers are provided by web3.js.
 
-Web3 provider engine是用于组合不同Web3 provider的组件，这些provider各自实现了Web3定义的部分功能，Web3 provider engine是所有provider的入口。
+Web3 provider engine is a component used to combine different Web3 providers. These providers implement some of the functions defined by Web3.  Web3 provider engine is the entrance of all providers.
 
 ```
 //truffle/packages/hdwallet-provider/src/index.ts
@@ -232,7 +229,7 @@ import WebsocketProvider from "@trufflesuite/web3-provider-engine/subproviders/w
 
 ### HookedSubprovider
 
-Truffle向ProviderEngine添加了HookedSubprovider这个Provider：
+Truffle adds HookedSubprovider to ProviderEngine:
 
 ```
 //truffle/packages/hdwallet-provider/src/index.ts
@@ -278,9 +275,9 @@ this.engine.addProvider(
 );
 ```
 
-在HookedSubprovider的实现中，可以看到`getPrivateKey`和`signTransaction`函数，这两个函数就是为`eth_sendRawTransaction`发送签名后的交易服务的。`signTransaction`函数中使用了ethereumjs-tx库对交易数据进行签名处理。
+In the implementation of HookedSubprovider, you can see the `getPrivateKey` and `signTransaction` functions, which are support for `eth_sendRawTransaction`. The ethereumjs-tx library is used in the `signTransaction` function to sign transaction data.
 
-## 配置 truffle-config.js 
+## Configure the truffle-config.js 
 
     const HDWalletProvider = require("truffle-hdwallet-provider");
     
@@ -297,7 +294,15 @@ this.engine.addProvider(
       }
     };
 
-## 总结
+The parameter of HDWalletProvider:
 
-使用Truffle HDWallet Provider带给开发者极大的方便，使得开发者既不用搭建以太坊节点，也保证私钥的安全，实现在本地即可对交易进行签名。
+first parameter:  mnemonic or private key
+
+second parameter: URI or Ethereum client to send Web3 requests
+
+
+
+## Summary
+
+Using Truffle HDWalletProvider brings great convenience to developers, so that developers do not need to build Ethereum nodes, but also ensure the security of private keys, so that they can sign transactions locally.
 
