@@ -31,6 +31,7 @@
 |  15   | [Threshold Signatures](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/05_Threshold%20Signatures.md) | [阈值签名](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/05_%E9%98%88%E5%80%BC%E7%AD%BE%E5%90%8D.md) |
 |  16   | [MuSig-DN:Schnorr multi-signature scheme](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/06_MuSig-DN:Schnorr%20multi-signature%20scheme.md) | [Schnorr多签方案Musig-DN](https://github.com/chainx-org/chainx-technical-archive/blob/main/Daiwei/Taproot/06_Schnorr%E5%A4%9A%E7%AD%BE%E6%96%B9%E6%A1%88Musig-DN.md) |
 |  17   | [Schnorr threshold signatures FROST](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/06_Schnorr%20threshold%20signatures%20FROST.md) | [Schnorr阈值签名方案FROST](https://github.com/chainx-org/chainx-technical-archive/blob/main/LiuBinXiao/Taproot/06_Schnorr%E9%98%88%E5%80%BC%E7%AD%BE%E5%90%8D%E6%96%B9%E6%A1%88FROST.md) |
+|  18   | [Schnorr Applications: Blind Signatures](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/06_Schnorr%20Applications:%20Blind%20Signatures.md) | [Schnorr盲签名](https://github.com/chainx-org/chainx-technical-archive/blob/main/LuoJianMan/Taproot/06_Schnorr%E7%9B%B2%E7%AD%BE%E5%90%8D.md) |
 
 ### Decentralized red envelope
 
