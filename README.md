@@ -53,6 +53,7 @@
 | :---: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  00   | [Decentralized Identity Implementation of C-Card](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Decentralized%20Identity%20Implementation%20of%20C-Card.pdf) | [C-Card 的去中心化身份实现](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/C-Card%20%E7%9A%84%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E8%BA%AB%E4%BB%BD%E5%AE%9E%E7%8E%B0.pdf) |
 |  01   | [Comparison of Acala, Moonbeam and Plasm](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Comparison%20of%20Acala%2C%20Moonbeam%20and%20Plasm.pdf) |  [Acala、Moonbeam、Plasm对比](https://github.com/chainx-org/chainx-technical-archive/blob/main/YangZhou/Acala%E3%80%81Moonbeam%E3%80%81Plasm%E5%AF%B9%E6%AF%94.pdf)                               |
+|  02   | [The Design and Implementation of pallet-coming-auction](./ZhaoJianBing/pallet_coming_auction.md) | [pallet-coming-auction的设计与实现](./ZhaoJianBing/pallet_coming_auction.md)
 
 ### EVM
 
